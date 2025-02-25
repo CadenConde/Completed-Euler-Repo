@@ -26,7 +26,7 @@ public class Solve83 {
         //array of distance to each cell
         int[][] distance = new int[80][80];
 
-        //initialize ever cell to infinity
+        //initialize every cell to infinite distance
         for (int i = 0; i < 80; i++) {
             for (int j = 0; j < 80; j++) {
                 distance[i][j] = Integer.MAX_VALUE;
